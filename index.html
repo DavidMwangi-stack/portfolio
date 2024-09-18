@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Mburu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4f73a601d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/Davidlogo.png"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+             <p>Web & App Development</p>
+             <h1>Hi, I'm <span>David</span><br>a Software Developer</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/photo.png.jpeg" alt="">
+                </div>
+                 <div class="about-col-2">
+                 <h1 class="sub-title">About me</h1>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Doloremque, maiores praesentium sed, aperiam eveniet, similique labore provident facere fuga tempora beatae placeat explicabo! Cumque facilis officiis cum unde atque veritatis.</p>
+                <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Web Development</span><br>Creating stunning Websites</li>
+                    <li><span>App Development</span><br>Building Android/iOS app</li>
+                    <li><span>Graphic Design</span><br>Design posters and flyers</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>2021-Current</span><br>Team lead at StarApp LLC</li>
+                    <li><span>2019-2021</span><br>Graphic Design Executives at Company x</li>
+                    <li><span>2017-2019</span><br>Internship at company x</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2024</span><br>Certificate from eMobilis</li>
+                    <li><span>2024</span><br>Certificate from PLP</li>
+                    <li><span>2023</span><br>Certificate from IBM</li>
+                    <li><span>2019</span><br>BBIT from Mt Kenya University</li>
+                    <li><span>2017</span><br>Certificate from KIPS</li>
+
+                </ul>
+               </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                  <div>
+                    <i class="fa-solid fa-code" ></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nobis quia, nisi provident labore pariatur, tempora illum odit asperiores adipisci hic, impedit aut rem nesciunt! Officia quo qui suscipit labore.</p>
+                 <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nobis quia, nisi provident labore pariatur, tempora illum odit asperiores adipisci hic, impedit aut rem nesciunt! Officia quo qui suscipit labore.</p>
+                 <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nobis quia, nisi provident labore pariatur, tempora illum odit asperiores adipisci hic, impedit aut rem nesciunt! Officia quo qui suscipit labore.</p>
+                 <a href="#">Learn more</a>
+                </div>
+                </div>
+        </div>
+     </div>
+
+     <!-- portfolio -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work1.png" >
+                    <div class="layer">
+                        <h3>A birthday flyer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque dolorem quidem recusandae deserunt maiores soluta, quia enim consequuntur neque sed nesciunt minus excepturi architecto possimus libero, error molestias modi.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work3.png" alt="">
+                    <div class="layer">
+                        <h3>Food App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque dolorem quidem recusandae deserunt maiores soluta, quia enim consequuntur neque sed nesciunt minus excepturi architecto possimus libero, error molestias modi.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work2.png" alt="">
+                    <div class="layer">
+                        <h3>E-commerce App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque dolorem quidem recusandae deserunt maiores soluta, quia enim consequuntur neque sed nesciunt minus excepturi architecto possimus libero, error molestias modi.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <!-- contact -->
+       <div id="contact">
+        <div class="container">
+        <div class="row">
+       <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>David@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+254711111253</p>
+        <p class="">Find me on</p>
+        <div class="social-icons">
+            <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="#" download class="btn btn2">Download CV</a>
+       </div>
+       <div class="contact-right">
+         <form name="submit-to-google-sheet">
+        <input type="text" name="Name" placeholder="Your name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+         <textarea name="Message" rows="8" placeholder="Your message"></textarea>   
+         <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+       </div>
+        </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-solid fa-copyright"></i>2024 Developer David <br>All Rights Reserved.</p>
+        </div>
+       </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        // for display of either skills or experience or education
+        event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    
+    }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+        
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyaivLBpbvnu5WLfjrQOKpEwUutGrv7L4NYchtASK50DlXFhxvEaLe-pnuWkfbQROIIeQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML ="Message sent successful"
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },4000)
+                form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
